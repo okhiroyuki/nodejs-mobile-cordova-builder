@@ -1,0 +1,7 @@
+version: '3'
+services:
+    cordova:
+        image: okhiroyuki/nodejs-mobile-cordova-builder:latest
+        volumes:
+            - ./src/:/root/src/
+        working_dir: /root/unibo-skillcreator
